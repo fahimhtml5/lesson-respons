@@ -730,6 +730,7 @@ button {
     }
     .carousel-img {
         text-align: center;
+        width: 100%;
     }
     .carousel-text {
         width: 90%;
