@@ -27,6 +27,9 @@ img {
     max-width: 100%; 
     height: auto;
 }
+a {
+    text-decoration: none;
+}
 ul {
     list-style: none;
 }
@@ -68,7 +71,6 @@ button {
 .menu ul li a {
     position: relative;
     display: block;
-    text-decoration: none;
     color: #5F5B53;
 }
 .menu ul li a::after {
@@ -99,7 +101,6 @@ button {
 .mobile-menu a {
     display: block;
     color: #fff;
-    text-decoration: none;
 }
 .mobile-menu li {
     border-bottom: 1px solid #fff;
@@ -133,6 +134,7 @@ button {
 /* Header-btn */
 .header-btn {
     background-color: #171100;
+    font-size: 16px;
     color: #fff;
     padding: 11px 41px;
     border: 1px solid #171100;
@@ -584,7 +586,6 @@ button {
 .company-support a {
     font-size: 14px;
     color: #BFBCB2;
-    text-decoration: none;
 }
 .company-support a:hover {
     color: #fff;
