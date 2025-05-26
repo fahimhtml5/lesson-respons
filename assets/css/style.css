@@ -709,7 +709,7 @@ button {
         padding-top: 100px;
     }
     .take-wrapper {
-        flex-direction: column;
+        flex-direction: column-reverse;
         gap: 85px;
         text-align: center;
     }
